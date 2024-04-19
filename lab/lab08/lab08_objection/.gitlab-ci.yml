@@ -1,0 +1,28 @@
+image: comp1531/basic:latest
+
+cache:
+  paths:
+    - node_modules
+
+stages:
+  - checks
+    
+before_script:
+  - echo "This message is echoed at the very start!"
+
+testing:
+  stage: checks
+  script:
+    - npm install
+    - npm run test
+
+typecheck:
+  stage: checks
+  script:
+    - npm install
+    - npm run tsc
+
+linting:
+  stage: checks
+  script:
+    - npm run lint
