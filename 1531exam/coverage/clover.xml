@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1660705051290" clover="3.2.0">
+  <project timestamp="1660705051291" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="acronym.ts" path="/tmp_amd/adams/export/adams/5/z5387411/COMP1531/1531exam/1531exam/acronym.ts">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="5" type="cond" truecount="1" falsecount="0"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>
